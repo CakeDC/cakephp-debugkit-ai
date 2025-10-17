@@ -1,0 +1,14 @@
+{
+    "name": "cakedc/cakephp-debugkit-ai",
+    "description": "DebugKit AI enhancements",
+    "autoload": {
+        "psr-4": {
+            "CakeDC\\DebugKitAI\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">8.2",
+        "google-gemini-php/client": "^2.6",
+        "cakephp/cakephp": "^5.0"
+    }
+}
